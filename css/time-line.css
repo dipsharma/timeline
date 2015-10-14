@@ -1,0 +1,92 @@
+body {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #999;
+    margin: 0;
+    padding: 0;
+}
+#timeline {
+    margin: 50px auto;
+    width: 720px;
+    height: 380px;
+    background: transparent url(../images/time-line-back.jpg) repeat-x 0 0;
+    border: 1px solid #CCC;
+}
+#timeline h2 {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ea1f12;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+#timeline h3 {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #525252;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.background {
+    width: 100%;
+    max-width: 720px;
+    height: 380px;
+    background: transparent url(../images/red_ribbon.png) no-repeat scroll -260px 0;
+    text-align: center;
+    position: relative;
+}
+.years {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+}
+.years ul {
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+.years ul li {
+    list-style: none;
+    float: left;
+    margin-right: 4px;
+}
+.years ul li a {
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #999;
+}
+.years ul li a:hover {
+    color: #ea3022 !important;
+}
+.active {
+    color: #ea3022 !important;
+    font-size: 20px !important;
+}
+span.freccia {
+    font-size: 22px;
+    color: #000;
+}
+.description {
+    width: 280px;
+    min-height: 150px;
+    position: absolute;
+    text-align: left;
+    left: 365px;
+    top: 50px;
+    background: transparent url(../images/line.png) no-repeat left bottom;
+}
+.description a {
+    text-decoration: none;
+    color: #ea1f12;
+    font: 12px/1.5 Arial, Helvetica, Sans-serif !important;
+}
+.description a:hover {
+    color: #000;
+}
+.desc-hide {
+    display: none;
+}
