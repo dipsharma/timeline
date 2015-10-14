@@ -1,4 +1,4 @@
 # timeline
 Timeline with Ribbon
-Demo:
+Demo: http://www.dipsfactory.net/time-line
 
